@@ -1,0 +1,155 @@
+.Vectorzzz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -100px;
+  color: #0056D1;
+}
+.headingzzz {
+  font-size: 50px; /* Adjust the font size as needed */
+  margin-bottom: 5px;
+
+}
+.vector-imagezzz {
+  margin-top: 1px; /* Adjust vertical spacing between heading and image */
+  margin-left: 200px; /* Move the line a little to the left */
+  margin-bottom: 30px;
+}
+
+
+.carousel-container {
+ display: flex;
+ flex-direction: row;
+ margin: 120px;
+ width: 920px;
+ height: 220px;
+ overflow: hidden; /* Added overflow hidden */
+
+}
+
+.carousel-track{
+  width: 720px;
+  height: 202px;
+  margin-left: 10px;
+  border: 0.1px solid #0B7077  ;
+  border-radius: 7px;
+}
+.carousel-slide {
+  width: 520px;
+  height: 200px;
+  flex: 0 0 30%; /* Adjust width as needed */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-slide img {
+  width: 200px;
+  height: 145px;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+}
+.infoz {
+  width: 80px;
+  position: absolute; /* Made absolute for positioning inside image */
+  margin-top: 102px; /* Adjust position as needed */ 
+  margin-left: 109px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#FFFFFF; /* Semi-transparent background */
+  padding: 1px; /* Add some padding */
+  font-size: 11px; /* Adjust font size as needed */
+  border-radius: 15px;
+}
+.price {
+  color: #fd661f;
+  font-weight: bold;
+}
+
+.cut-price {
+  color: #8f8b8b;
+  font-weight: bold;
+  margin-left: 10px; /* Added margin-left here */
+  z-index: 2;
+}
+
+.infozz {
+  width: 80px;
+  position: absolute; /* Made absolute for positioning inside image */
+  bottom: 20px; /* Adjust position as needed */
+  left: 768px; /* Adjust position as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffff; /* Semi-transparent background */
+  padding: 2px; /* Add some padding */
+  font-size: 10px; /* Adjust font size as needed */
+  border-radius: 25px;
+}
+.pricez {
+  color: #fd661f;
+  font-weight: bold;
+}
+
+.cut-pricez {
+  color: #230f0f;
+
+  margin-left: 10px; /* Added margin-left here */
+  z-index: 2;
+}
+
+.detailsz {
+  flex: 1;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  
+}
+
+.detailsz h3 {
+  margin-bottom: 5px;
+  color:  #0B7077;
+
+}
+
+.detailsz p {
+  margin-bottom: 10px;
+  color: #4D4D4D;
+
+}
+
+.detailsz img{
+  width: 200px;
+  height: 40px;
+  margin-top: 18px;
+  display: block; /* Ensures proper centering */
+  margin: 0 40px;
+  
+}
+
+.wrapper {
+  position: absolute;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.dot {
+  width: 90px;
+  height: 3px;
+  background-color: #818C96;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+  border: 1px solid #818C96
+}
+
+.dot.active {
+  background-color: #333;
+}
+   

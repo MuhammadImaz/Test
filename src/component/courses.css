@@ -1,0 +1,222 @@
+.Vectorzz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  color: #0056D1;
+}
+.headingzz {
+  font-size: 50px; /* Adjust the font size as needed */
+  margin-bottom: 5px;
+
+}
+.vector-imagezz {
+  margin-top: 1px; /* Adjust vertical spacing between heading and image */
+  margin-left: 200px; /* Move the line a little to the left */
+  margin-bottom: 30px;
+}
+
+.paragraph{
+  color: #696984;
+  align-items: center;
+  justify-content: center; /* Center items vertically */
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 70px 50px; /* Consolidate margin shorthand */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+}
+
+.courses-main {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 70px; /* Add gap between cards */
+    margin-bottom: 10px;
+  }
+.courses-card {
+  background-color: #fff; /* White background */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 10px; /* Rounded corners */
+  width: 290px; /* Adjust width as needed */
+  height: 329px;
+  display: flex; /* Arrange image and content side-by-side */
+  margin-bottom: 20px; /* Add spacing for multiple cards */
+  position: relative; /* Enable positioning for circle image */
+  font-family: "Raleway", sans-serif;
+}
+
+.course-image-wrapper {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color: #a3d3ff;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.course-image-wrapper2 {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color: #F1C9FF;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.course-image-wrapper3 {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color: #FFB800;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.course-image-wrapper4 {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color: #a3d3ff;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.course-image-wrapper5 {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color: #a3d3ff;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.course-image-wrapper6 {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color:  #F1C9FF;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.course-image-wrapper7 {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color: #FFB800;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+.course-image-wrapper8 {
+    margin-top: 60px;
+    position: absolute; /* Position image wrapper within card */
+  top: -50px; /* Shift image wrapper upwards */
+  left: 50%; /* Center image wrapper horizontally */
+  transform: translateX(-50%); /* Center image wrapper precisely */
+  width: 80px; /* Set width for image wrapper */
+  height: 80px; /* Set height for image wrapper */
+  border-radius: 50px; /* Create circular shape */
+  background-color: #a3d3ff;
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+.courses-image {
+    
+  width: 100%; /* Set image width to fill the wrapper */
+  height: 100%; /* Set image height to fill the wrapper */
+  object-fit: cover; /* Crop image to fit container */
+  border-radius: 50%; /* Make image circular inside the wrapper */
+}
+
+.courses-content {
+    margin-top: 60px;
+  padding: 20px; /* Add padding for content */
+  flex: 1; /* Allow content to fill remaining space */
+}
+
+.courses-info {
+  margin-bottom: 15px; /* Add spacing below info */
+  font-size: 20px; /* Adjust title font size */
+  line-height: 31.7px; /* Adjust line spacing for readability */
+  font-weight: 600; /* Bold text for title */
+  color: #0056d1; /* Dark gray for title text */
+}
+
+.courses-description {
+
+  font-size: 18px; /* Adjust description font size */
+  line-height: 1.5; /* Adjust line spacing for readability */
+  color: #666; /* Light gray for description text */
+  margin-bottom: 20px; /* Add spacing below description */
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+
+  font-weight: 500;
+}
+
+.enrolled-button {
+    margin-top: 70px;
+  background-color: #0056d1; /* Dark gray background for button */
+  color: #fff; /* White text color for button */
+  padding: 10px 20px; /* Add padding for button text */
+  border: none; /* Remove default button border */
+  border-radius: 7px; /* Rounded corners for button */
+  cursor: pointer; /* Indicate clickable behavior */
+  font-size: 14px; /* Adjust button text size */
+  font-weight: bold; /* Bold text for button */
+  justify-content: center;
+  position: absolute; /* Enable absolute positioning */
+  top: 60%; /* Position button vertically in the middle */
+  transform: translateY(-50%); /* Adjust vertical positioning precisely */
+  left: 50%; /* Position button horizontally in the middle */
+  transform: translateX(-50%); /* Adjust horizontal positioning precisely */
+}
+
+
+.more-button {
+    margin-top: 70px;
+    color: #0056d1; /* White text color for button */
+    background-color: #FFFFFF;
+    padding: 10px 20px; /* Add padding for button text */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Indicate clickable behavior */
+    font-size: 14px; /* Adjust button text size */
+    font-weight: bold; /* Bold text for button */
+    justify-content: center;
+    position: absolute; /* Enable absolute positioning */
+    top: 60%; /* Position button vertically in the middle */
+    transform: translateY(-50%); /* Adjust vertical positioning precisely */
+    left: 50%; /* Position button horizontally in the middle */
+    transform: translateX(-50%); /* Adjust horizontal positioning precisely */
+  }

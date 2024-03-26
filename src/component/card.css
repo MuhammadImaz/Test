@@ -1,0 +1,90 @@
+.main {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 70px; /* Add gap between cards */
+    margin-bottom: 200px;
+  }
+  
+.course-card {
+    background-color: #fff; /* White background */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+    flex-direction: column;
+    width: 296px; /* Adjust width as needed */
+    display: flex; /* Arrange content horizontally */
+    
+    font-family: "Raleway", sans-serif;
+  }
+  .Ratings{
+    justify-content: center;
+    margin-top: -18px; /* Adjust the negative margin to move it up */
+
+  }
+  .course-card h4{
+    margin-top: 25px;
+    font-size: 13px; /* Adjust title font size */
+    font-weight: 300; /* Bold title text */
+    color: #4D4D4D;
+    margin-bottom: 2px; /* Add spacing for multiple cards */
+    
+  }
+  
+  .course-image {
+    width: 334px; /* Set image width */
+    height: 179px; /* Set image height */
+    object-fit: cover; /* Crop image to fit container */
+    border-radius: 10px 0 0 10px; /* Rounded top left corner */
+  }
+  
+  .course-content {
+    padding: 5px; /* Add padding for content */
+    flex: 1; /* Allow content to fill remaining space */
+    flex-grow: 1; /* Grow to fill available space */
+  }
+
+  
+  .course-title {
+    margin-bottom: 5px; /* Add spacing below title */
+    font-size: 13.52px; /* Adjust title font size */
+    font-weight: 800; /* Bold title text */
+    color: #0056D1;
+
+  }
+
+  .course-description {
+    font-size: 12px; /* Adjust description font size */
+    line-height: 16px; /* Adjust line spacing for readability */
+    font-weight: 400;
+    margin-bottom: 15px; /* Add spacing below description */
+    color: #4D4D4D;
+  }
+  
+  .course-info {
+    display: flex; /* Arrange price and duration horizontally */
+    margin-top: 18px;
+    font-size: 18px; /* Adjust info text font size */
+    color: #0056D1; /* Light gray color for info text */
+    font-weight: bold;
+  }
+.strikethrough {
+    text-decoration: line-through; /* Add line-through effect */
+    color: #aaa; /* Light gray color for discounted price */
+    margin-left: 5px;
+  }
+  .course-price {
+    margin-right: 1px; /* Add spacing between price and duration */
+  }
+  
+  .enroll-button {
+    background-color: #0056D1; /* Dark gray background for button */
+    color: #fff; /* White text color for button */
+    padding: 10px 15px; /* Add padding for button text */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Indicate clickable behavior */
+    margin-top: 10px;
+  }  
+  .end{
+    display: flex; /* Arrange price and duration horizontally */
+    justify-content: space-between;
+  }

@@ -1,0 +1,186 @@
+.container {
+  display: flex;
+  background-color: #d2e6e4; /* Adjust as needed */
+  padding: 1rem 2rem;
+  
+}
+.left-section {
+  flex: 1;
+  color: #333;
+  margin-left: 1rem; 
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  color: black;
+  margin-left: -20rem; /* Adjust as needed to reduce space */
+  margin-right: 550px;
+}
+
+.right-section form {
+  flex: 0 0 282px; /* Set width (adjust as needed) */
+  margin-top: 180px; /* Adjust top position */
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+
+  
+}
+
+
+/* Target text and email inputs for specific width */
+input[type="text"], input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #8DAEF714;
+}
+
+/* Target other input types (age, contact, city, intrested course) */
+input[type="age"],
+input[type="contact"],
+input[type="city"],
+input[type="intrested Course"] {
+  width: 150px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #8DAEF714;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.submiter {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem; /* Adjust spacing as needed */
+  margin-left: 2rem; /* Add some space after the headings */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  color: black;
+}
+
+.logo img {
+  height: 45px;
+  width: 179px;
+  top: 50px;
+  left: 82px;
+}
+
+.nav {
+  display: flex;
+  gap: 5rem;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 10rem; /* Adjust spacing as needed */
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit; /* Inherit from header color */
+}
+
+.actions {
+  display: flex;
+  gap: 0rem;
+  margin-left: 8rem; /* Move the container to the left */
+}
+
+.enroll-btn {
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border: none; /* Remove border */
+  border-radius: 9px;
+  color: #0056d1; /* Match header background color */
+  width: 5rem;
+  height: 2rem;
+}
+
+.whatsapp-btn {
+  background-color: #0056d1; /* Green color from image */
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-btn i {
+  margin-right: 0.5rem;
+}
+
+.writing {
+  display: flex; /* Make the headings behave like a single row */
+  flex-direction: column; /* Stack headings vertically */
+  line-height: 1; /* Remove default line spacing between headings */
+  /* Optional: Adjust margin or padding for spacing within the writing section */
+  margin-bottom: 1rem; /* Add some space after the headings */
+  margin-left: 2rem; /* Add some space after the headings */
+  color: black; /* Assuming white color from the image */
+}
+
+.writing h2 {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin: 0; /* Remove default margins between headings */
+  font-weight: lighter; /* Assuming lighter weight from the image */
+  /* Optional: Add letter-spacing for a more spread-out look */
+  letter-spacing: 0.1rem;
+}
+
+.writing h2:nth-child(1) {
+  /* Style the first heading */
+  font-size: 3rem; /* Assuming larger size for the first heading */
+  font-weight: bold; /* Assuming bolder weight for the first heading */
+  padding-top: 5rem;
+}
+
+.writing h2:nth-child(2) {
+  /* Style the first heading */
+  font-size: 3rem; /* Assuming larger size for the first heading */
+  font-weight: bold; /* Assuming bolder weight for the first heading */
+  color: blue;
+}
+
+.writing h2:nth-child(4) {
+  /* Style the first heading */
+  font-size: 3rem; /* Assuming larger size for the first heading */
+  font-weight: bold; /* Assuming bolder weight for the first heading */
+  color: blue;
+}
+.circle-container {
+  /* Enable relative positioning for the container */
+
+  width: 100%; /* Match the width of the form */
+  text-align: center; /* Center elements horizontally within the container */
+}
+
+.circle {
+  width: 200px; /* Adjust the size of the circle as needed */
+  height: 200px; /* Make the circle a square to avoid an oval shape */
+  background-color: #d2e6e4;
+  border-radius: 50%; /* Set the border radius to create a circle */
+  position: absolute; /* Make the circle positioned within the container */
+  bottom: 30px; /* Position the circle at the bottom */
+  left: 50%; /* Center the circle horizontally */
+  transform: translateX(-50%); /* Offset the circle horizontally by half its width */
+}

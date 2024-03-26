@@ -1,0 +1,62 @@
+.footerz {
+  margin-top: 50px;
+  background-color: #d2e6e4; /* Adjust background color as needed */
+}
+
+.footerz img {
+  margin-left: 50px;
+}
+
+.footer-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 columns of equal width */
+  grid-gap: 140px; /* Adjust spacing between columns and rows */
+}
+
+.footer-column-heading {
+  color: #3442d9;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.footer-column2,
+.footer-column3,
+.footer-column4 {
+  margin-bottom: 9px;
+}
+
+.last {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+
+.search-containerzz {
+  display: flex;
+}
+
+.search-inputsz {
+  border-radius: 20px; /* Adjust border radius as needed */
+  padding: 10px;
+  font-family: Arial, sans-serif; /* Specify your font family */
+  font-size: 16px; /* Specify your font size */
+  border: 1px solid #ccc; /* Add border styling */
+  height: 14px;
+  flex-direction: row;
+}
+
+.search-buttonzz {
+  margin-top: 4px;
+  margin-right: 44px;
+  border-radius: 20px; /* Adjust border radius to match input */
+  padding: 10px 20px;
+  font-family: Arial, sans-serif; /* Specify your font family */
+  font-size: 18px; /* Specify your font size */
+  background-color: #0056D1; /* Set button text color */
+  color: white;
+  border: none;
+
+}

@@ -1,0 +1,189 @@
+.container {
+  display: flex;
+  background-color: #d2e6e4;
+  
+}
+
+.left-section {
+  flex: 1;
+  color: #333;
+  margin-left: 16px; /* 1rem = 16px */
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: -320px; /* -20rem = -320px */
+  margin-right: 550px;
+}
+
+.right-section form {
+  flex: 0 0 282px;
+  margin-top: 180px;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"], input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #74b5ae;
+  background-color: #74b5ae;
+}
+input[type="intrested Course"],
+input[type="contact"]{
+ margin-left: 20px;
+
+}
+input[type="age"],
+input[type="contact"],
+input[type="city"],
+input[type="intrested Course"] {
+  width: 150px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #74b5ae;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #74b5ae;
+}
+
+.submiter {
+  margin-top: 20px;
+  background-color: #191a19;
+  color: rgb(62, 5, 5);
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-top: 16px; /* 1rem = 16px */
+  margin-left: 32px; /* 2rem = 32px */
+}
+
+.explore-btn {
+  background-color: blue;
+  color: white;
+  padding: 8px 16px; /* Add some padding for better visual separation */
+  margin-right: 10px;  /* Adjust the margin as needed */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Indicate clickable behavior */
+  border-radius: 15px;
+  font-family: "Raleway", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  color: black;
+}
+
+.logo img {
+  height: 45px;
+  width: 179px;
+  top: 50px;
+  left: 82px;
+}
+
+.nav {
+  display: flex;
+  gap: 80px; /* 5rem = 80px */
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 83px; /* 10rem = 160px */
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.actions {
+  display: flex;
+  gap: 0px;
+  margin-left: 128px; /* 8rem = 128px */
+}
+
+.enroll-btn {
+  background-color: #fff;
+  padding: 4px 16px; /* 0.5rem = 8px, 1rem = 16px */
+  border: none;
+  border-radius: 9px;
+  color: #0056d1;
+  width: 80px; /* 5rem = 80px */
+  height: 40px; /* 2rem = 40px */
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  
+}
+
+.whatsapp-btn {
+  background-color: #0056d1;
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-btn i {
+  margin-right: 8px; /* 0.5rem = 8px */
+}
+
+.writing {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin-bottom: 16px; /* 1rem = 16px */
+  margin-left: 32px; /* 2rem = 32px */
+  color: black;
+}
+
+.writing h2 {
+  font-size: 40px; /* 2.5rem = 40px */
+  margin: 0;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+
+.writing h2:nth-child(1),
+.writing h2:nth-child(2),
+.writing h2:nth-child(4) {
+  font-size: 48px; /* 3rem = 48px */
+  font-weight: bold;
+}
+
+.writing h2:nth-child(2) {
+  color: blue;
+}
+
+.writing h2:nth-child(4) {
+  color: blue;
+}
+
+.circle-container {
+  width: 100%;
+  text-align: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #d2e6e4;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}

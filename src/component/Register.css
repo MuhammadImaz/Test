@@ -1,0 +1,105 @@
+.Mainzz {
+  display: flex;
+}
+
+.Leftzzz {
+  flex: 1;
+}
+
+.Rights {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+.Pic {
+  width: 576px; /* Ensure the image doesn't exceed its container */
+  height: 398px; /* Ensure the image doesn't exceed its container */
+}
+
+.body {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  color: #000;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #74b5ae;
+  border-radius: 9px;
+  background-color: #74b5ae;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  color: #000;
+  transition: border-color 0.3s ease;
+  height: 35px;
+}
+
+.form-input::placeholder {
+  color: #000;
+  opacity: 3;
+  font-weight: 500;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #0b7077;
+  background-color: #d2e6e4;
+}
+
+.form-input:focus::placeholder {
+  opacity: 1;
+}
+
+.form-input.large {
+  width: 440px;
+}
+
+.form-input.medium {
+  width: 268px;
+}
+
+.form-input.small {
+  width: 272px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row .form-input {
+  flex: 1;
+}
+
+.image-button-container {
+  display: flex;
+  align-items: center;
+  margin-left: 190px;
+}
+
+.image-button-container img {
+  width: 200px; /* Adjust width as needed */
+  height: 143px;
+}
+
+.image-button-container button {
+  margin-left: 20px; /* Adjust spacing as needed */
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #0056d1;
+  cursor: pointer;
+  width: 180px;
+  height: 55px;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  color: #ffff;
+}

@@ -1,0 +1,17 @@
+.Vector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    color: #0056D1;
+  }
+  .heading {
+    font-size: 50px; /* Adjust the font size as needed */
+    margin-bottom: 5px;
+
+  }
+  .vector-image {
+    margin-top: 1px; /* Adjust vertical spacing between heading and image */
+    margin-left: 200px; /* Move the line a little to the left */
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,22 @@
+
+.custom-bar {
+    background-color: #d2e6e4;
+    margin-top: 140px;
+    margin-left: 120px;
+    border-radius: 20px; /* Rounded corners */
+    width: 1000px; /* Stretch the bar to full width */
+    height: 100px; /* Set the bar height */
+    padding: 0 40px; /* Add space on the left and right sides */
+ 
+  }
+  
+  .bar-content {
+    display: flex; /* Inherit flexbox from parent */
+    flex-grow: 1; /* Allow content to fill available space */
+    display: flex; /* Enable flexbox for content arrangement */
+    justify-content: space-between; /* Evenly distribute content horizontally */
+    align-items: center; /* Vertically center content */
+    
+  }
+  
+ 
